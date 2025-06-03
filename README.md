@@ -1,4 +1,4 @@
-# ORB-SLAM3 ROS2 Jazzy Workspace
+# ORB-SLAM3 ROS2 Jazzy Package
 
     orb_slam3_ws
     └── src/
