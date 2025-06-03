@@ -1,4 +1,4 @@
-# ORB-SLAM3 ROS2 Jazzy Package
+# ORB-SLAM3 ROS2 Jazzy Jalisco Package
 
     orb_slam3_ws
     └── src/
@@ -6,8 +6,6 @@
         └── aaaaaaaaaaa/                          #
 
 # Tested Environment
-
-- ROS2 Jazzy Jalisco
 
 # Getting Started
 
