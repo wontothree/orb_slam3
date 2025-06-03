@@ -8,8 +8,8 @@ services:
     tty: true
     stdin_open: true
     volumes:
-      - ../:/root/orb_slam3_ws/src                        # 현재 프로젝트 폴더를 컨테이너 내 워크스페이스로 마운트
+      - ../../orb_slam3:/root/orb_slam3_ws/src/orb_slam3      # 현재 프로젝트 폴더를 컨테이너 내 워크스페이스로 마운트
     ports:
-      - "11311:11311"                                     # ROS 마스터 포트 포워딩
+      - "11311:11311"                                         # ROS 마스터 포트 포워딩
     environment:
-      - ROS_DOMAIN_ID=0                                   # ROS 도메인 설정 (필요하면 변경)
+      - ROS_DOMAIN_ID=0                                       # ROS 도메인 설정 (필요하면 변경)

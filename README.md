@@ -2,12 +2,19 @@
 
     orb_slam3_ws
     └── src/
-        ├── aaaa/                                 #
-        └── aaaaaaaaaaa/                          #
+        └── orb_slam3                                     # This Package
+            └── src/
+                ├── aaaa/                                 #
+                └── aaaaaaaaaaa/                          #
 
 # Tested Environment
 
 # Getting Started
+
+```bash
+source /opt/ros/jazzy/setup.bash
+colcon build
+```
 
 ## Install Dependencies
 

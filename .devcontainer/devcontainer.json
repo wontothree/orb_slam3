@@ -2,7 +2,7 @@
   "name": "ROS2 Jazzy Base Dev Container",
   "dockerComposeFile": "./docker-compose.yml",                  // docker-compose.yml 위치 (보통 프로젝트 루트)
   "service": "orb_slam3",                                       // Service name in docker-compose.yml
-  "workspaceFolder": "/root/orb_slam3_ws/src",        // 컨테이너 내 작업 공간 위치 (docker-compose.yml에서 마운트한 경로)
+  "workspaceFolder": "/root/orb_slam3_ws/src",                  // 컨테이너 내 작업 공간 위치 (docker-compose.yml에서 마운트한 경로)
   "settings": {
     "terminal.integrated.shell.linux": "/bin/bash"
   },
